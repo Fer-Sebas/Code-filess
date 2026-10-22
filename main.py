@@ -1,30 +1,28 @@
-# Tipos de datos (data type)
-# Estructuras de datos (data structures)
+# Data types
 
-texto = "4"
-numero = 4
+# What is a data type
+# A data type is the kind of information we are working with.
 
-# print( texto + texto )
-# print( numero + numero )
+text = "5" # This is text
+number = 5 # This is a number
 
-verdadero = 1
-falso = 0
+print(text + text)
+print(number + number)
 
-estaLloviendo = bool("susana")
+int() # Integer
+float() # Floating point
+str() # String (String of characters)
+bool() # Boolean (True or False)
 
-if estaLloviendo:
-    print("toma un paraguas")
+print( int(text) + number )
+
+# userAge = int(input("Whats your age?"))
+
+# print(userAge + 10)
+
+isStudent = 1
+
+if isStudent:
+    print("Welcome to class")
 else:
-    print("toma un sombrero")
-
-# Integer (Entero)
-int() 
-
-# String (Hilo "de texto")
-str()
-
-# Floating point ("Decimal")
-float()
-
-# Boolean (Verdadero o Falso)
-bool()
+    print("You are not enrolled")
