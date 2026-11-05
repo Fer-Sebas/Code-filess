@@ -24,3 +24,10 @@ print("B) Becuase he had more experience")
 print("C) Because he had the higher ground")
 
 userAnswer1 = input("What is your choice?...")
+
+userAnswer2 = input("What is your choice?...")
+
+if userAnswer2 == "B" or "D":
+    print("Thats correct")
+else:
+    print("thats wrong")
