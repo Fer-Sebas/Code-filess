@@ -9,7 +9,7 @@
 
 # TEMA: Star Wars
 
-# alkdfjlaksdfjlaskfjalksdfjalskdfjaslkdjfaslkjdlaksdjf
+puntaje = 0
 
 res1 = "B" # Le decimos al computador cual es la respuesta correcta 
 # de la primera pregunta
